@@ -1,3 +1,4 @@
+
 {
   "name": "hotelbooking",
   "private": true,
@@ -5,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite preview --host 0.0.0.0 --port $PORT",
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview"
